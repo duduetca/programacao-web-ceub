@@ -30,3 +30,11 @@ function converter() {
     console.log(conversao);
 
 };
+
+function inverter() {
+    let moeda1 = document.getElementById("moeda1").value;
+    let moeda2 = document.getElementById("moeda2").value;
+
+    document.getElementById("moeda1").value = moeda2;
+    document.getElementById("moeda2").value = moeda1;
+};
